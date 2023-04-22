@@ -1,0 +1,17 @@
+div.note-card {
+    padding: 12px 16px;
+    width: 238px;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+div.card-header {
+    max-height: 84px;
+    font-weight: 500;
+}
+
+div.card-content {
+    padding-top: 4px;
+    font-size: 14px;
+}

@@ -1,0 +1,6 @@
+footer.footer {
+    margin-block: 20px 12px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--logo-color);
+}

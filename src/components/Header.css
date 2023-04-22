@@ -1,0 +1,30 @@
+header.header {
+    display: block;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: inset 0 -1px 0 0 #dadce0;
+}
+
+.header .wrapper {
+    padding: 8px;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a.logo span {
+    font-size: 22px;
+    color: var(--logo-color);
+}
+
+.header .avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background-color: #07361a;
+    color: #ffffff;
+    border-radius: 50%;
+}
