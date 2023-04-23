@@ -1,17 +1,13 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Note from "./components/Note";
+import NotesList from "./components/NotesList";
 
-const App = () => {
+export default function App() {
     return (
         <>
             <Header />
-            <main>
-                <Note />
-            </main>
+            <NotesList />
             <Footer />
         </>
     );
-};
-
-export default App;
+}

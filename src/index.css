@@ -37,8 +37,3 @@ body #root {
     min-height: 100vh;
     flex-direction: column;
 }
-
-main {
-    flex: 1;
-    padding: 16px 20px 0;
-}

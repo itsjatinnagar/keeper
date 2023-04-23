@@ -1,16 +1,10 @@
 import "./Note.css";
 
-const Note = () => {
+export default function Note(props) {
     return (
         <div className="note-card">
-            <div className="card-header">Hello World</div>
-            <div className="card-content">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
-                saepe esse fugit pariatur dolore fugiat eligendi sequi amet unde
-                inventore?
-            </div>
+            <div className="card-header">{props.title}</div>
+            <div className="card-content">{props.content}</div>
         </div>
     );
-};
-
-export default Note;
+}
