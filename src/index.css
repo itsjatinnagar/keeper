@@ -20,6 +20,8 @@ input,
 button {
     border: none;
     outline: none;
+    background: none;
+    color: black;
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;

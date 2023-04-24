@@ -1,0 +1,37 @@
+div.form-container {
+    margin: 20px auto 0;
+    padding-block: 10px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.21),
+        0 3px 6px 0 rgba(60, 64, 67, 0.192);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+form input#title {
+    font-weight: 500;
+}
+
+form input#content {
+    font-size: 14px;
+}
+
+form button {
+    width: fit-content;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
